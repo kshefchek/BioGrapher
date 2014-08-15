@@ -6,4 +6,4 @@ information stored in RDF format in many popular scientific databases such as NC
 and UniProt.
 
 BioGrapher is currently hosted on google app engine:
-https://biographer.appspot.com
+https://bio-grapher.appspot.com
