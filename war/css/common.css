@@ -1,0 +1,370 @@
+/***********
+ * Common  */
+/* Type selectors */
+
+ body {
+    font: small verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255,255,255);
+}
+
+/* page container ID selector */
+
+
+#page_container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+ 
+ /*****************************
+  * page header section start */
+  
+ /* Header 1     */
+ /* ID selectors */
+ 
+#page_header {
+    background-color: #EBECE4;
+    width: 100%;
+    overflow: hidden;
+    height:30px;
+
+}
+#icon_container {
+	padding: 0 20px 0 0;
+	margin: 6px 0 5px 0;
+	
+}
+
+#icon_container li {
+	float: right;
+	list-style: none;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    font: small verdana, sans-serif;
+	font-size: 108%;
+}
+
+
+a.icon:link {
+	color: #303030;
+	text-decoration:none;
+}      
+a.icon:visited {
+	color: #303030;
+	text-decoration:none;
+}
+a.icon:hover {
+	color:#000000;
+	/*background-color:#D0D0D0; */
+	text-decoration:none;
+}
+a.icon:active {
+	text-decoration:none;
+}
+
+
+ /* Header 2     */
+ /* ID selectors */
+#title_header{
+    width: 100%;
+	overflow: hidden;
+    height:90px;
+    	
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #084011 0%, #06A13F 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #084011 0%, #06A13F 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #084011 0%, #06A13F 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #084011), color-stop(1, #06A13F));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #084011 0%, #06A13F 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #084011 0%, #06A13F 100%);
+}
+
+#page_IE{
+	width: 100%;
+    overflow: hidden;
+    height:90px;
+    background-color: #06A13F;
+}
+
+#page_title {
+    /*font-weight: bold;*/
+    font-size: 230%;
+    padding: 26px 0 30px 80px;
+    float: left;
+    color: rgb(255,255,255);
+    letter-spacing: 1px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+ /* Navigation bar    */
+ /* ID selectors      */
+ 
+ #main{
+ 
+    width: 100%;
+    overflow: hidden;
+    /*height: 130px;*/
+    z-index: 3;
+    position: relative;
+ }
+ 
+ #prim_nav_border{
+ 
+    width: 100%;
+    overflow: hidden;
+    height: 35px; 
+    background-color: #505050;
+    z-index: 9997;
+    position: absolute;
+ }
+ 
+#prim_nav_elements{
+	margin: 0 0 0 31px;
+	z-index: 9998;
+    position: relative;
+    list-style: none;
+}
+ 
+#prim_nav_elements li.top{
+ 	font: small verdana, sans-serif;
+	font-size: 110%;
+    padding: 8px 25px 3px 0;
+    float: left;
+    position:relative;
+	
+ }
+ 
+
+a.link:link {
+	color: #E8E8E8;
+	text-decoration:none;
+	border:1px solid transparent;
+	padding: 8px 8px 8px 8px;
+}      
+a.link:visited {
+	color: #E8E8E8;
+	text-decoration:none;
+	border:1px solid transparent;
+	padding: 8px 8px 8px 8px;
+}
+a.link:hover {
+	background-color:#393E42;
+	border:1px solid transparent;
+	padding: 8px 8px 8px 8px;
+	/*border-style:outset;*/
+	text-decoration:none;
+}
+a.link:active {
+	text-decoration:none;
+	border:1px solid transparent;
+	padding: 8px 8px 8px 8px;
+}
+
+#prim_nav_elements ul {
+	background:#fff;
+	background:rgba(255,255,255,0);
+	list-style:none;
+	position:absolute;
+	left: -9999px;
+	
+}
+
+#prim_nav_elements ul li {
+	padding-top: 10px;
+	padding-right: 3px;
+	float:none;
+}
+
+
+#prim_nav_elements ul a {
+	white-space:nowrap;
+}
+
+#prim_nav_elements li:hover ul{
+	left: 0;
+	background-color:#393E42;
+	padding: 0 30px 10px 10px;
+	margin-top: 9px;
+
+}
+
+#prim_nav_elements li:hover a{
+	background-color:#393E42;
+	text-decoration:none;
+	color:#E8E8E8;
+}
+
+#prim_nav_elements li:hover ul li a:hover{	
+	color: #FFFFFF;
+}
+
+.explain{
+    font-family: 'Roboto Slab', serif;
+	font-size: 175%;
+	color: #000000;
+	position:relative;
+	z-index:9997;
+	margin: 70px 0 0 79px;
+}
+
+.standard_text{
+	font-family: 'Roboto Slab', serif;
+	font-size: 120%;
+	color: #000000;
+}
+
+#form_container{
+	margin: 30px 200px 0 79px;
+	position: relative;
+	z-index:4;
+}
+
+#example_container{
+	margin: 30px 200px 0 79px;
+	position: relative;
+	z-index:4;
+	height: 1000px;
+	width: 1000px;
+}
+
+#example_graph{
+	border:1px solid black;
+	margin: 30px 0 0 79px;
+	height: 900px;
+	width: 1100px;
+}
+
+#input_form{
+	position: absolute;
+	z-index:9999;
+	width: 100%;
+	background-color: rgb(255,255,255);
+}
+
+#input_form legend{
+	font: small verdana, sans-serif;
+	font-size: 100%;
+}
+
+#input_form table{
+	margin: 10px 0 0 0;
+	
+}
+
+
+#input_form .label{
+	padding: 0 8px 10px 0;
+	vertical-align: middle;
+	text-align: right;
+	width: 125px;
+	white-space: no-wrap;
+}
+
+#input_form .field{
+	white-space: no-wrap;
+	vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+#input_form .status{
+	padding-bottom: 10px;
+	vertical-align: middle;
+	width: 180px;
+	white-space: no-wrap;
+}
+
+
+#submit{
+	margin: 0 0 0 0;
+}
+
+#ajaxLoader{
+	position:absolute;
+	z-index: 1;
+}
+
+#ajaxLoader img{
+	vertical-align:middle;
+}
+
+#ajaxLoader span{
+	font: small verdana, sans-serif;
+	font-size: 120%;
+	display:inline-block;
+	vertical-align:middle;	
+}
+
+#ajaxLoader a:link {
+	text-decoration: none;
+	color: #35557F;
+}
+#ajaxLoader a:visited {
+	text-decoration: none;
+	color: #35557F;
+}
+#ajaxLoader a:active {
+	text-decoration: none;
+	color: #35557F;
+}
+#ajaxLoader a:hover {
+	text-decoration: none; 
+	color: #5B87C0;
+}}
+
+
+#graph_container{
+	position:relative;
+	z-index: 9999;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: 0;
+  fill: #000000;
+  color: #000000;
+  pointer-events: none;
+  font: 12px sans-serif;
+}
+
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.gLink text {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: 0;
+  color: #000000;
+  pointer-events: none;
+  font: 12px sans-serif;
+}
+
+.circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
